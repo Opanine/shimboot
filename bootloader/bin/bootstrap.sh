@@ -125,9 +125,9 @@ print_selector() {
   local rootfs_partitions="$1"
   local i=1
 
-  echo "┌──────────────────────┐"
-  echo "│ Shimboot OS Selector │"
-  echo "└──────────────────────┘"
+  echo "_-=""""""""""""=-_"
+  echo "0{ Shimboot RMA }0"
+  echo "$3#+-________-+#3$"
 
   if [ "${rootfs_partitions}" ]; then
     for rootfs_partition in $rootfs_partitions; do
